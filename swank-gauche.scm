@@ -570,7 +570,7 @@
 
 (define (load-gauche-operator-args gauche-source-path)
   (when (not (elisp-false? gauche-source-path))
-    (load-operator-args #`",|gauche-source-path|/doc/gauche-refe.texi")))
+    (load-operator-args #`",|gauche-source-path|/doc/gauche-ref.texi")))
 
 (define (get-func-args op-sym a)
   (cond
